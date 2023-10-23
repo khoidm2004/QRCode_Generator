@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+.NotFound_container{
+    margin-top: 5vh;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.NotFound_container h1{
+    font-size: 40vh;
+}
+
+.NotFound_container p{
+    font-size: 10vh;
+}
+
+.NotFound_container h1:hover,.NotFound_container p:hover{
+    color: bisque;
+}

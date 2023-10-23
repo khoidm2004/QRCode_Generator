@@ -1,0 +1,28 @@
+.contact_container{
+    margin-top: 10vh;
+    margin-bottom: -20vh;
+    background-color: white;
+}
+
+.contact_container h2{
+    color:#FF7F50 ;
+}
+
+.icon_container{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon_container a{
+    font-size: 200%;
+    color: grey;
+}
+
+.icon_container_blue:hover{
+    color:blue;
+}
+
+.icon_container_lightblue:hover{
+    color:#87CEFA;
+}

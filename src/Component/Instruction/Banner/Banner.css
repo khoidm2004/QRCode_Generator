@@ -1,0 +1,22 @@
+.banner_container{
+    justify-content: center;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: -5vh;
+    border-radius: 20px;
+}
+
+.banner_container h1 span{
+    color: #BC8F8F;
+}
+
+.banner_container p{
+    font-size: 25px;
+}
+

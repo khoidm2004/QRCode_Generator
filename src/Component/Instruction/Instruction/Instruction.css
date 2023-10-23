@@ -1,0 +1,45 @@
+.Instruction{
+    margin: 0;
+    padding:0;
+}
+
+.Instruction_header{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.Instruction_header_h1{
+    font-weight: bold;
+}
+
+.Instruction_header p{
+    font-size: 30px;
+}
+
+.Instruction_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.image_container{
+    margin-left: -300px; 
+}
+
+.image{
+    width: 25%;
+    height:70%;
+}
+
+.Instruction_content{
+    margin-left: -300px;
+    margin-right: 100px;
+  }
+
+@media screen and (max-width:768px){
+    .image{
+        display: none;
+      }
+}
+

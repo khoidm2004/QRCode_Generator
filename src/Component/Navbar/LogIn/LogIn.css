@@ -1,0 +1,143 @@
+.logIn_container{
+    background-color: white;
+}
+
+.logIn_home_link{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.adb{
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+}
+
+.logIn_home_link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #87CEFA;
+}
+
+.login_form_container{
+    border: solid 3px black;
+    border-radius: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:50px;
+    padding-top: 35px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: relative;
+}
+
+.login_form_container_header{
+    text-align: left;
+}
+
+.login_form_container input{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 6px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 17px;
+}
+
+.login_form_container input:hover{
+    border: solid 2px #87CEFA;
+}
+
+.login_form_container p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login_btn{
+    margin-top: 5vh;
+    width: 100%;
+    padding: 3%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #32CD32; 
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.login_btn:hover{
+    background-color: #2E8B57; 
+}
+
+.logIn_Baseline{
+    margin-top: 3vh;
+    display: flex;
+}
+
+.logIn_line{
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    height: 0.5px;
+    margin-top: 3%;
+}
+
+.logIn_Baseline span{
+    font-size: 14px;
+}
+
+.logIn_fa_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    width: 100%;
+    padding: 3%;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #0000FF; 
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.logIn_fa_btn:hover{
+    background-color: #00008B; 
+}
+
+.fa_btn_icon{
+    margin-right: 5%;
+}
+
+.logIn_gg_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 100%;
+    padding: 3%;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+}
+
+.logIn_gg_btn:hover{
+    background-color: #DCDCDC; 
+}
+
+.gg_btn_icon{
+    margin-right: 5%;
+}
+
+@media screen and (max-width:768px) {
+    .login_form_container{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .logIn_line{
+       background-color: black;
+    }
+}
