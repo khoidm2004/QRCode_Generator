@@ -1,17 +1,15 @@
-.footer_container{
-    background-color: white;
-    margin-top: 10vh;
-    padding-top: 10vh;
+.footer_container {
+  background-color: white;
+  margin-top: 10vh;
+  padding-top: 10vh;
 }
 
-.copyright_container{
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
+.copyright_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
 }
 
-.contact_container{
-    display: block;
+.contact_container {
+  display: block;
 }
-
-

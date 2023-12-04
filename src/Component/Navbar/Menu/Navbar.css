@@ -1,27 +1,27 @@
-.nav{
-    display: flex;
-    margin-right: 1rem;
+.nav {
+  display: flex;
+  margin-right: 1rem;
 }
 
-.nav ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    list-style: none;
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
 }
 
-.nav-links{
-    text-decoration: none;
-    color: white;
-    font-size: 3vh;
-    font-weight: 500;
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+  font-weight: 500;
 }
 
-.nav-links:hover{
-    color: aquamarine;
+.nav-links:hover {
+  color: aquamarine;
 }
 
-.link{
-    text-decoration: none;
-    color: black;
+.link {
+  text-decoration: none;
+  color: black;
 }

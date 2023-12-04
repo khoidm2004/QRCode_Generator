@@ -1,143 +1,143 @@
-.signUp_container{
-    background-color: white;
+.signUp_container {
+  background-color: white;
 }
 
-.signUp_home_link{
-    margin-top: 10vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.signUp_home_link {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.adb{
-    margin-top: 30px;
-    height: 50px;
-    width: auto;
+.adb {
+  margin-top: 30px;
+  height: 50px;
+  width: auto;
 }
 
-.signUp_home_link a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #87CEFA;
+.signUp_home_link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #87cefa;
 }
 
-.signUp_form_container{
-    border: solid 3px black;
-    border-radius: 16px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom:50px;
-    padding-top: 35px;
-    margin-left: 35%;
-    margin-right: 35%;
-    position: relative;
+.signUp_form_container {
+  border: solid 3px black;
+  border-radius: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 35px;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: relative;
 }
 
-.signUp_form_container_header{
-    text-align: left;
+.signUp_form_container_header {
+  text-align: left;
 }
 
-.signUp_form_container input{
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 6px;
-    border-radius: 10px;
-    border: solid 2px black;
-    font-size: 17px;
+.signUp_form_container input {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 6px;
+  border-radius: 10px;
+  border: solid 2px black;
+  font-size: 17px;
 }
 
-.signUp_form_container input:hover{
-    border: solid 2px #87CEFA;
+.signUp_form_container input:hover {
+  border: solid 2px #87cefa;
 }
 
-.signUp_form_container p{
-    font-size: 20px;
-    font-weight: 600;
+.signUp_form_container p {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.signUp_btn{
-    margin-top: 5vh;
-    width: 100%;
-    padding: 3%;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: #32CD32; 
-    color: white;
-    cursor: pointer;
-    border: none;
+.signUp_btn {
+  margin-top: 5vh;
+  width: 100%;
+  padding: 3%;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #32cd32;
+  color: white;
+  cursor: pointer;
+  border: none;
 }
 
-.signUp_btn:hover{
-    background-color: #2E8B57; 
+.signUp_btn:hover {
+  background-color: #2e8b57;
 }
 
-.signUp_Baseline{
-    margin-top: 3vh;
-    display: flex;
+.signUp_Baseline {
+  margin-top: 3vh;
+  display: flex;
 }
 
-.signUp_line{
-    flex: 1;
-    border: 1px solid black;
-    text-align: center;
-    height: 0.5px;
-    margin-top: 3%;
+.signUp_line {
+  flex: 1;
+  border: 1px solid black;
+  text-align: center;
+  height: 0.5px;
+  margin-top: 3%;
 }
 
-.signUp_Baseline span{
-    font-size: 14px;
+.signUp_Baseline span {
+  font-size: 14px;
 }
 
-.signUp_fa_btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
-    width: 100%;
-    padding: 3%;
-    font-size: 16px;
-    border-radius: 20px;
-    background-color: #0000FF; 
-    color: white;
-    cursor: pointer;
-    border: none;
+.signUp_fa_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  width: 100%;
+  padding: 3%;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #0000ff;
+  color: white;
+  cursor: pointer;
+  border: none;
 }
 
-.signUp_fa_btn:hover{
-    background-color: #00008B; 
+.signUp_fa_btn:hover {
+  background-color: #00008b;
 }
 
-.signUp_fa_btn_icon{
-    margin-right: 5%;
+.signUp_fa_btn_icon {
+  margin-right: 5%;
 }
 
-.signUp_gg_btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 3vh;
-    width: 100%;
-    padding: 3%;
-    font-size: 16px;
-    border-radius: 20px;
-    background-color: white; 
-    color: black;
-    cursor: pointer;
+.signUp_gg_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  width: 100%;
+  padding: 3%;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
-.signUp_gg_btn:hover{
-    background-color: #DCDCDC; 
+.signUp_gg_btn:hover {
+  background-color: #dcdcdc;
 }
 
-.signUp_gg_btn_icon{
-    margin-right: 5%;
+.signUp_gg_btn_icon {
+  margin-right: 5%;
 }
 
-@media screen and (max-width:768px) {
-    .signUp_form_container{
-        margin-right: 20%;
-        margin-left: 20%;
-    }
-    .signUp_line{
-       background-color: black;
-    }
+@media screen and (max-width: 768px) {
+  .signUp_form_container {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  .signUp_line {
+    background-color: black;
+  }
 }
